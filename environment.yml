@@ -1,0 +1,28 @@
+name: asi-ml
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+
+  # Data analysis
+  - numpy=2.4.6
+  - pandas=3.0.6
+  - matplotlib
+
+  # Machine learning — potrzebne od M2
+  - scikit-learn=1.9.1
+
+  # Jupyter
+  - ipykernel=7.3.0
+  - jupyter
+
+  # Development / quality
+  - pytest
+  - pre-commit=4.6.2
+  - ruff=0.16.9
+  - nbstripout
+
+  - pip

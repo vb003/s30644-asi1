@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments and secrets
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+#other
+check_env\ copy.py
+notebooks/01_onboarding_eda_teacher.ipynb
+notebooks/02_onboarding_model_teacher.ipynb
